@@ -111,6 +111,7 @@ public class GameFrame extends JFrame {
 	 * Constructs the UI
 	 */
 	public void buildUI(){
+		JOptionPane.showMessageDialog(this, "Obnoxious popup!");
 		JPanel contentPanel = new JPanel(new BorderLayout(0, 30));
 		JPanel labelPanel = new JPanel(new BorderLayout());
 		labelPanel.add(messageLabel, BorderLayout.NORTH);
